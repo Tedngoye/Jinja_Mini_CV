@@ -1,0 +1,10 @@
+<section id="experiences">
+    <h2>Expériences Professionnelles</h2>
+    <ul>
+        {% for experience in experience_pro %}
+            <li>
+                <strong>{{ experience.entreprise }}</strong> - {{ experience.poste }} ({{ experience.periode }})
+            </li>
+        {% endfor %}
+    </ul>
+</section>

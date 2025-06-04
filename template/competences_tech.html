@@ -1,0 +1,11 @@
+<section id="competences">
+    <h2>Competences Techniques</h2>
+    {% for categorie in competences_techniques %}
+        <h3>{{ categorie.type }}</h3>
+        <ul>
+            {% for competence in categorie.competences %}
+                <li>{{ competence }}</li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+</section>

@@ -1,0 +1,39 @@
+[
+  {
+    "nom": "Dupont",
+    "prenom": "Jean",
+    "poste": "Développeur Backend",
+    "formations": [
+      {
+        "annee": 2015,
+        "formation": "Master Informatique - Université de Rennes"
+      },
+      {
+        "annee": 2013,
+        "formation": "Licence Informatique - Université de Nantes"
+      }
+    ],
+    "competences_techniques": [
+      {
+        "type": "Langages de programmation",
+        "competences": ["Python", "Java", "SQL"]
+      },
+      {
+        "type": "Frameworks",
+        "competences": ["Django", "Spring Boot"]
+      }
+    ],
+    "experiences_professionnelles": [
+      {
+        "entreprise": "Tech Solutions",
+        "poste": "Développeur Backend",
+        "periode": "2018-2025"
+      },
+      {
+        "entreprise": "InnovIT",
+        "poste": "Développeur Junior",
+        "periode": "2015-2018"
+      }
+    ]
+  }
+]
